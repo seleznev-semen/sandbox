@@ -25,7 +25,7 @@ char eof< char >()
 template<>
 wchar_t eof< wchar_t >()
 {
-	return L'\0';	using byte = char;
+	return L'\0';
 }
 
 }
